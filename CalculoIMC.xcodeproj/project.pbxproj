@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FF574E2780A5980074F7EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF574D2780A5980074F7EC /* AppDelegate.swift */; };
+		84FF57502780A5980074F7EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF574F2780A5980074F7EC /* SceneDelegate.swift */; };
+		84FF57522780A5980074F7EC /* CalculoImcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF57512780A5980074F7EC /* CalculoImcViewController.swift */; };
+		84FF57552780A5980074F7EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF57532780A5980074F7EC /* Main.storyboard */; };
+		84FF57582780A5980074F7EC /* CalculoIMC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84FF57562780A5980074F7EC /* CalculoIMC.xcdatamodeld */; };
+		84FF575A2780A59C0074F7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF57592780A59C0074F7EC /* Assets.xcassets */; };
+		84FF575D2780A59C0074F7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF575B2780A59C0074F7EC /* LaunchScreen.storyboard */; };
+		84FF57682780A59C0074F7EC /* CalculoIMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF57672780A59C0074F7EC /* CalculoIMCTests.swift */; };
+		84FF57732780A59C0074F7EC /* CalculoIMCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF57722780A59C0074F7EC /* CalculoIMCUITests.swift */; };
+		84FF57962780A7AE0074F7EC /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF57952780A7AE0074F7EC /* Pessoa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FF57642780A59C0074F7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FF57422780A5980074F7EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FF57492780A5980074F7EC;
+			remoteInfo = CalculoIMC;
+		};
+		84FF576F2780A59C0074F7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FF57422780A5980074F7EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FF57492780A5980074F7EC;
+			remoteInfo = CalculoIMC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FF574A2780A5980074F7EC /* CalculoIMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculoIMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF574D2780A5980074F7EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FF574F2780A5980074F7EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84FF57512780A5980074F7EC /* CalculoImcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculoImcViewController.swift; sourceTree = "<group>"; };
+		84FF57542780A5980074F7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FF57572780A5980074F7EC /* CalculoIMC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalculoIMC.xcdatamodel; sourceTree = "<group>"; };
+		84FF57592780A59C0074F7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FF575C2780A59C0074F7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FF575E2780A59C0074F7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF57632780A59C0074F7EC /* CalculoIMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculoIMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF57672780A59C0074F7EC /* CalculoIMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculoIMCTests.swift; sourceTree = "<group>"; };
+		84FF57692780A59C0074F7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF576E2780A59C0074F7EC /* CalculoIMCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculoIMCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF57722780A59C0074F7EC /* CalculoIMCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculoIMCUITests.swift; sourceTree = "<group>"; };
+		84FF57742780A59C0074F7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF57952780A7AE0074F7EC /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FF57472780A5980074F7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF57602780A59C0074F7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF576B2780A59C0074F7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FF57412780A5980074F7EC = {
+			isa = PBXGroup;
+			children = (
+				84FF574C2780A5980074F7EC /* CalculoIMC */,
+				84FF57662780A59C0074F7EC /* CalculoIMCTests */,
+				84FF57712780A59C0074F7EC /* CalculoIMCUITests */,
+				84FF574B2780A5980074F7EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FF574B2780A5980074F7EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FF574A2780A5980074F7EC /* CalculoIMC.app */,
+				84FF57632780A59C0074F7EC /* CalculoIMCTests.xctest */,
+				84FF576E2780A59C0074F7EC /* CalculoIMCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FF574C2780A5980074F7EC /* CalculoIMC */ = {
+			isa = PBXGroup;
+			children = (
+				84FF578B2780A5D00074F7EC /* model */,
+				84FF578A2780A5C90074F7EC /* view */,
+				84FF57892780A5BD0074F7EC /* controller */,
+				84FF574D2780A5980074F7EC /* AppDelegate.swift */,
+				84FF574F2780A5980074F7EC /* SceneDelegate.swift */,
+				84FF57592780A59C0074F7EC /* Assets.xcassets */,
+				84FF575B2780A59C0074F7EC /* LaunchScreen.storyboard */,
+				84FF575E2780A59C0074F7EC /* Info.plist */,
+				84FF57562780A5980074F7EC /* CalculoIMC.xcdatamodeld */,
+			);
+			path = CalculoIMC;
+			sourceTree = "<group>";
+		};
+		84FF57662780A59C0074F7EC /* CalculoIMCTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FF57672780A59C0074F7EC /* CalculoIMCTests.swift */,
+				84FF57692780A59C0074F7EC /* Info.plist */,
+			);
+			path = CalculoIMCTests;
+			sourceTree = "<group>";
+		};
+		84FF57712780A59C0074F7EC /* CalculoIMCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FF57722780A59C0074F7EC /* CalculoIMCUITests.swift */,
+				84FF57742780A59C0074F7EC /* Info.plist */,
+			);
+			path = CalculoIMCUITests;
+			sourceTree = "<group>";
+		};
+		84FF57892780A5BD0074F7EC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				84FF57512780A5980074F7EC /* CalculoImcViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		84FF578A2780A5C90074F7EC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				84FF57532780A5980074F7EC /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		84FF578B2780A5D00074F7EC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				84FF57952780A7AE0074F7EC /* Pessoa.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FF57492780A5980074F7EC /* CalculoIMC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF57772780A59C0074F7EC /* Build configuration list for PBXNativeTarget "CalculoIMC" */;
+			buildPhases = (
+				84FF57462780A5980074F7EC /* Sources */,
+				84FF57472780A5980074F7EC /* Frameworks */,
+				84FF57482780A5980074F7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculoIMC;
+			productName = CalculoIMC;
+			productReference = 84FF574A2780A5980074F7EC /* CalculoIMC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FF57622780A59C0074F7EC /* CalculoIMCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF577A2780A59C0074F7EC /* Build configuration list for PBXNativeTarget "CalculoIMCTests" */;
+			buildPhases = (
+				84FF575F2780A59C0074F7EC /* Sources */,
+				84FF57602780A59C0074F7EC /* Frameworks */,
+				84FF57612780A59C0074F7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FF57652780A59C0074F7EC /* PBXTargetDependency */,
+			);
+			name = CalculoIMCTests;
+			productName = CalculoIMCTests;
+			productReference = 84FF57632780A59C0074F7EC /* CalculoIMCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84FF576D2780A59C0074F7EC /* CalculoIMCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF577D2780A59C0074F7EC /* Build configuration list for PBXNativeTarget "CalculoIMCUITests" */;
+			buildPhases = (
+				84FF576A2780A59C0074F7EC /* Sources */,
+				84FF576B2780A59C0074F7EC /* Frameworks */,
+				84FF576C2780A59C0074F7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FF57702780A59C0074F7EC /* PBXTargetDependency */,
+			);
+			name = CalculoIMCUITests;
+			productName = CalculoIMCUITests;
+			productReference = 84FF576E2780A59C0074F7EC /* CalculoIMCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FF57422780A5980074F7EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					84FF57492780A5980074F7EC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					84FF57622780A59C0074F7EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 84FF57492780A5980074F7EC;
+					};
+					84FF576D2780A59C0074F7EC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 84FF57492780A5980074F7EC;
+					};
+				};
+			};
+			buildConfigurationList = 84FF57452780A5980074F7EC /* Build configuration list for PBXProject "CalculoIMC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FF57412780A5980074F7EC;
+			productRefGroup = 84FF574B2780A5980074F7EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FF57492780A5980074F7EC /* CalculoIMC */,
+				84FF57622780A59C0074F7EC /* CalculoIMCTests */,
+				84FF576D2780A59C0074F7EC /* CalculoIMCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FF57482780A5980074F7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF575D2780A59C0074F7EC /* LaunchScreen.storyboard in Resources */,
+				84FF575A2780A59C0074F7EC /* Assets.xcassets in Resources */,
+				84FF57552780A5980074F7EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF57612780A59C0074F7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF576C2780A59C0074F7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FF57462780A5980074F7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF57522780A5980074F7EC /* CalculoImcViewController.swift in Sources */,
+				84FF574E2780A5980074F7EC /* AppDelegate.swift in Sources */,
+				84FF57962780A7AE0074F7EC /* Pessoa.swift in Sources */,
+				84FF57502780A5980074F7EC /* SceneDelegate.swift in Sources */,
+				84FF57582780A5980074F7EC /* CalculoIMC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF575F2780A59C0074F7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF57682780A59C0074F7EC /* CalculoIMCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF576A2780A59C0074F7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF57732780A59C0074F7EC /* CalculoIMCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FF57652780A59C0074F7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FF57492780A5980074F7EC /* CalculoIMC */;
+			targetProxy = 84FF57642780A59C0074F7EC /* PBXContainerItemProxy */;
+		};
+		84FF57702780A59C0074F7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FF57492780A5980074F7EC /* CalculoIMC */;
+			targetProxy = 84FF576F2780A59C0074F7EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FF57532780A5980074F7EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FF57542780A5980074F7EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FF575B2780A59C0074F7EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FF575C2780A59C0074F7EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FF57752780A59C0074F7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84FF57762780A59C0074F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FF57782780A59C0074F7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMM295FRCU;
+				INFOPLIST_FILE = CalculoIMC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.CalculoIMC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84FF57792780A59C0074F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMM295FRCU;
+				INFOPLIST_FILE = CalculoIMC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.CalculoIMC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84FF577B2780A59C0074F7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMM295FRCU;
+				INFOPLIST_FILE = CalculoIMCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.CalculoIMCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculoIMC.app/CalculoIMC";
+			};
+			name = Debug;
+		};
+		84FF577C2780A59C0074F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMM295FRCU;
+				INFOPLIST_FILE = CalculoIMCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.CalculoIMCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalculoIMC.app/CalculoIMC";
+			};
+			name = Release;
+		};
+		84FF577E2780A59C0074F7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMM295FRCU;
+				INFOPLIST_FILE = CalculoIMCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.CalculoIMCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculoIMC;
+			};
+			name = Debug;
+		};
+		84FF577F2780A59C0074F7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMM295FRCU;
+				INFOPLIST_FILE = CalculoIMCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.denis.CalculoIMCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalculoIMC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FF57452780A5980074F7EC /* Build configuration list for PBXProject "CalculoIMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF57752780A59C0074F7EC /* Debug */,
+				84FF57762780A59C0074F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF57772780A59C0074F7EC /* Build configuration list for PBXNativeTarget "CalculoIMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF57782780A59C0074F7EC /* Debug */,
+				84FF57792780A59C0074F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF577A2780A59C0074F7EC /* Build configuration list for PBXNativeTarget "CalculoIMCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF577B2780A59C0074F7EC /* Debug */,
+				84FF577C2780A59C0074F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF577D2780A59C0074F7EC /* Build configuration list for PBXNativeTarget "CalculoIMCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF577E2780A59C0074F7EC /* Debug */,
+				84FF577F2780A59C0074F7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84FF57562780A5980074F7EC /* CalculoIMC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84FF57572780A5980074F7EC /* CalculoIMC.xcdatamodel */,
+			);
+			currentVersion = 84FF57572780A5980074F7EC /* CalculoIMC.xcdatamodel */;
+			path = CalculoIMC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84FF57422780A5980074F7EC /* Project object */;
+}
