@@ -1,1 +1,1 @@
-# AppCalculoIMC feito em Swift com Storyboard
+# Aplicativo Calculo de IMC feito em Swift com Storyboard
